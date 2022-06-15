@@ -14,10 +14,10 @@
           <div class="score-div">
             <div class="score-title">
               <h2>Recent Scores</h2>
-              <button type="button">Refresh</button>
+              <button type="button" id="refreshBtn">Refresh</button>
             </div>
-            <ul class="scores">
-                <li></li>
+            <ul class="scores" id="data-container">
+                
             </ul>
           </div>
       </div>
@@ -25,9 +25,11 @@
       <div class="sub-main2">
         <h1>Add Your Score</h1>
 
-            <input type="text" placeholder="Your Name"> <br>
-            <input type="text" placeholder="Your Name"> <br>
-            <button type="submit">Submit</button>
+            <form id="Data-Form"action="./">
+              <input type="text" placeholder="Your Name" id="username"> <br>
+              <input type="text" placeholder="Your Name" id="score"> <br>
+              <button type="submit">Submit</button>
+            </form>
 
       </div>
 
