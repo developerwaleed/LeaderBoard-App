@@ -1,11 +1,10 @@
 import getResponse from './postData.js';
-// eslint-disable-next-line import/no-cycle
 import getData from './getData.js';
 
 const refreshBtn = document.getElementById('refreshBtn');
 const Form = document.getElementById('Data-Form');
 
-const displayItem = (score) => `<li>${score.user}:${score.score}</li>`;
+// const displayItem = (score) => `<li>${score.user}:${score.score}</li>`;
 
 Form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -27,5 +26,3 @@ Form.addEventListener('submit', (e) => {
 refreshBtn.addEventListener('click', () => {
   getData();
 });
-
-export default displayItem;

@@ -1,6 +1,3 @@
-// eslint-disable-next-line import/no-cycle
-import displayItem from './appFunctions.js';
-
 const container = document.getElementById('data-container');
 const getData = async () => {
   const response = await fetch(
@@ -12,7 +9,8 @@ const getData = async () => {
   const data = await response.json();
   let item = '';
   data.result.forEach((score) => {
-    item += displayItem(score);
+    // item += displayItem(score);
+    item += `<li>${score.user}:${score.score}</li>`;
   });
   container.innerHTML = item;
 };
