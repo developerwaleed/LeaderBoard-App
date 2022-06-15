@@ -31,7 +31,7 @@ main {
   width: 70px;
 }
 
-tr:nth-child(even) {
+li:nth-child(even) {
   background-color: lightgray;
 }
 
