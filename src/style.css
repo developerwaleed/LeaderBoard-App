@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  font-size: 25px;
+  padding: 40px;
+}
+
+.score-div {
+  padding: 0 80px;
+}
+
+.score-title {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+table {
+  border: 1px solid black;
+  width: 30vw;
+}
+
+.score-title h2 {
+  font-size: 30px;
+}
+
+.score-title button {
+  width: 70px;
+}
+
+th,
+td {
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.sub-main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sub-main2 input {
+  align-self: start;
+}
+
+.sub-main2 button {
+  align-self: start;
+  width: 60px;
+  height: 30px;
+  margin-left: 115px;
+}
