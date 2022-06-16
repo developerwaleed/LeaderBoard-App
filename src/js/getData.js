@@ -10,7 +10,7 @@ const getData = async () => {
   let item = '';
   data.result.forEach((score) => {
     // item += displayItem(score);
-    item += `<li>${score.user}:${score.score}</li>`;
+    item += `<li><spa>${score.user} </spa><span>${score.score}</span></li>`;
   });
   container.innerHTML = item;
 };
