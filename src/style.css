@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Montserrat+Alternates:wght@300;500&display=swap');
+
 * {
   margin: 0;
   padding: 0;
+  list-style-type: none;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 main {
@@ -31,8 +35,63 @@ main {
   width: 70px;
 }
 
-li:nth-child(even) {
-  background-color: lightgray;
+.data-Container-main {
+  width: 20vw;
+}
+
+.btn {
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+
+  /* Created with https://www.css-gradient.com */
+  background: #322564;
+  background: -webkit-radial-gradient(center, #322564, #68648c);
+  background: -moz-radial-gradient(center, #322564, #68648c);
+  background: radial-gradient(ellipse at center, #322564, #68648c);
+}
+
+.btn:hover {
+  background: #d53e57;
+  background: -webkit-radial-gradient(center, #d53e57, #7e222c);
+  background: -moz-radial-gradient(center, #d53e57, #7e222c);
+  background: radial-gradient(ellipse at center, #d53e57, #7e222c);
+}
+
+.conatiner-header {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  font-size: 22px;
+  background-color: rgb(55, 60, 74);
+  color: rgb(160, 175, 203);
+}
+
+li:last-child {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.scores li {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 25px;
+  color: white;
+  background: #ff3a54;
+  background: -webkit-linear-gradient(bottom, #ff3a54, #d90048);
+  background: -moz-linear-gradient(bottom, #ff3a54, #d90048);
+  background: linear-gradient(to top, #ff3a54, #d90048);
+}
+
+.conatiner-header span {
+  font-size: 32px;
+  background-color: rgb(55, 60, 74);
+  color: rgb(220, 64, 81);
 }
 
 .sub-main2 {
@@ -42,7 +101,13 @@ li:nth-child(even) {
 }
 
 .sub-main2 input {
+  padding: 7px;
   align-self: start;
+  border-radius: 5px;
+}
+
+.title-add {
+  padding-bottom: 40px;
 }
 
 .sub-main2 button {
@@ -50,4 +115,14 @@ li:nth-child(even) {
   width: 60px;
   height: 30px;
   margin-left: 115px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 200, 'opsz' 48;
 }
