@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LeaderBoard App</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   </head>
   <body>
     <main>
@@ -14,40 +15,25 @@
           <div class="score-div">
             <div class="score-title">
               <h2>Recent Scores</h2>
-              <button type="button">Refresh</button>
+              <button type="button" class="btn" id="refreshBtn">Refresh</button>
             </div>
-            <table class="score-Table">
-                <tr>
-                    <td>Name:100</td>
-                </tr>
-                <tr>
-                    <td>Name:20</td>
-                </tr>
-                <tr>
-                    <td>Name:50</td>
-                </tr>
-                <tr>
-                    <td>Name:78</td>
-                </tr>
-                <tr>git 
-                    <td>Name:125</td>
-                </tr>
-                <tr>
-                    <td>Name:77</td>
-                </tr>
-                <tr>
-                    <td>Name:42</td>
-                </tr>
-            </table>
+            <div class="data-Container-main">
+                <div class="conatiner-header"> <span class="material-symbols-outlined">
+                  military_tech
+                  </span> Players</div>
+                <ul class="scores" id="data-container"></ul>
+            </div>
           </div>
       </div>
 
       <div class="sub-main2">
-        <h1>Add Your Score</h1>
+        <h1 class="title-add">Add Your Score</h1>
 
-            <input type="text" placeholder="Your Name"> <br>
-            <input type="text" placeholder="Your Name"> <br>
-            <button type="submit">Submit</button>
+            <form id="Data-Form"action="./">
+              <input type="text" placeholder="Your Name" id="username"> <br>
+              <input type="text" placeholder="Your Name" id="score"> <br>
+              <button class="btn" type="submit">Submit</button>
+            </form>
 
       </div>
 
