@@ -1,7 +1,9 @@
 import getResponse from './postData.js';
 import getData from './getData.js';
+import { creatNewGame, GameId } from './newGame.js';
 
 const refreshBtn = document.getElementById('refreshBtn');
+const creatNewGameVar = document.getElementById('click-here');
 const Form = document.getElementById('Data-Form');
 
 // const displayItem = (score) => `<li>${score.user}:${score.score}</li>`;
@@ -25,6 +27,12 @@ Form.addEventListener('submit', (e) => {
 
 refreshBtn.addEventListener('click', () => {
   getData();
+  const targetIdField = document.getElementById('YourGameID');
+  targetIdField.innerHTML = `${GameId}`;
 });
 
 getData();
+
+creatNewGameVar.addEventListener('click', () => {
+  creatNewGame();
+});

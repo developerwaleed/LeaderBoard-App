@@ -1,7 +1,9 @@
+import { GameId } from './newGame.js';
+
 const container = document.getElementById('data-container');
 const getData = async () => {
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/6UXN3Bg7YgI82vpAte1w/scores/',
+    `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${GameId}/scores/`,
   );
   if (!response.ok) {
     throw new Error(`Something Went Wrong status: ${response.status}`);
