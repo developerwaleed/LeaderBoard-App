@@ -4,7 +4,14 @@
 
 > This Website Allows you to creat your game and add your players score.
 
+ScreenShot 1                                    |  ScreenShot 2                           |
+:------------------------------------------------:|:-----------------------------------------------:
+![](./images/Screenshot%201.png)           |  ![](./images/Screenshot%202.png)
 
+ScreenShot 3                           
+:------------------------------------------------:|:-----------------------------------------------:
+![](./images/Screenshot%203.png)      | 
+                              
 ## Built With
 
 - HTML
@@ -15,7 +22,7 @@
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://caasperr.github.io/LeaderBoard-App/)
 
 
 ## Getting Started
