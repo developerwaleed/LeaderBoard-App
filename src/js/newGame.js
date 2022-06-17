@@ -18,16 +18,17 @@ const newgame = async () => {
   return data;
 };
 
-let getGameId = null;
+// eslint-disable-next-line import/no-mutable-exports
+let GameId = null;
 const creatNewGame = () => {
   const newId = newgame();
   newId.then((data) => {
     const test = data.result;
     const regex = /(?<=ID: )(.*)(?= added)/g;
-    getGameId = regex.exec(test);
-    getGameId = [0];
+    GameId = regex.exec(test);
+    // eslint-disable-next-line prefer-destructuring
+    GameId = GameId[0];
   });
 };
 
-const GameId = getGameId;
 export { GameId, creatNewGame };
