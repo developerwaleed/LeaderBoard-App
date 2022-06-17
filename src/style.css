@@ -12,7 +12,30 @@ main {
   grid-template-columns: 1fr 1fr;
 }
 
+body {
+  background-image:
+    linear-gradient(
+      to right bottom,
+      #d53e57,
+      #c4394e,
+      #b33346,
+      #a32e3e,
+      #932936,
+      #8b2239,
+      #821d3b,
+      #78183d,
+      #6e1649,
+      #601a54,
+      #4c205e,
+      #322564
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .title {
+  color: white;
   font-size: 25px;
   padding: 40px;
 }
@@ -28,6 +51,7 @@ main {
 }
 
 .score-title h2 {
+  color: white;
   font-size: 30px;
 }
 
@@ -72,9 +96,32 @@ main {
   color: rgb(160, 175, 203);
 }
 
+#click-here {
+  font-style: italic;
+  cursor: pointer;
+}
+
+#click-here:hover {
+  color: #c4394e;
+}
+
 li:last-child {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.new-game {
+  color: white;
+}
+
+.new-game-div {
+  display: flex;
+  flex-direction: column;
+  opacity: 0.7;
+  padding-right: 80px;
+  height: 20vh;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .scores li {
@@ -97,7 +144,7 @@ li:last-child {
 .sub-main2 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  margin-top: 10rem;
 }
 
 .sub-main2 input {
@@ -107,7 +154,20 @@ li:last-child {
 }
 
 .title-add {
+  color: white;
   padding-bottom: 40px;
+}
+
+.new-game-div #GameId {
+  align-self: flex-start;
+}
+
+#YourGameID {
+  color: #c9acb1;
+}
+
+.new-game-div #creatnew {
+  align-self: flex-start;
 }
 
 .sub-main2 button {
