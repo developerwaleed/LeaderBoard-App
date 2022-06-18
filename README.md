@@ -7,25 +7,25 @@
 ScreenShot 1                                      |  ScreenShot 2                                  |
 :------------------------------------------------:|:-----------------------------------------------:
 ![](./images/Screenshot%201.png)                  |  ![](./images/Screenshot%202.png)
-ScreenShot 3                                      |                            
-:------------------------------------------------:|
+ScreenShot 3                                      |   ScreenShot 4                           
+:------------------------------------------------:|:-----------------------------------------------:
 ![](./images/Screenshot%203.png)                  |  ![](./images/Screenshot%204.png)
 
                               
-## Built With
+## Built With ✔️
 
-- HTML
-- CSS
-- JavaScript ES6
-- WebPack
+- HTML 😄
+- CSS 🔥
+- JavaScript ES6 😋
+- WebPack 😉
 
 
-## Live Demo
+## Live Demo ✔️
 
 [Live Demo Link](https://caasperr.github.io/LeaderBoard-App/)
 
 
-## Getting Started
+## Getting Started 🙌
 
 To get a local copy up and running follow these simple example steps.
 
@@ -46,12 +46,11 @@ Clone the repository and change the directory to portfolio
 ```
 
 ### How to creat a new game?
-- LeaderBoard Api is used 
+- LeaderBoard Api is used 😋
 [API Documentation](https://www.notion.so/Leaderboard-API-service-24c0c3c116974ac49488d4eb0267ade3)
-- You can creat a new game using the Documentation.
-- Generate your unique Game id using Documentation.
-- The unique id can be replaced with existing id in 
-'./scr/js/getData.js' in fetch the url can be replaced with yours.
+- You can creat a new game using the New Game Button given on right Bottom on the Webpage.😄
+- After Creating Game click on refresh button to make your ID Appear.✔️
+- Congratulations 🥳 you have succefully createdt your game and your id can be used to track your scores🔥🔥
 
 ### Install
 Install all project dependencies by running the command below
@@ -111,7 +110,7 @@ This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.t
 
 ## Acknowledgments
 
-- Hat tip to Frontendmentor for the challenge.
+- Hat tip to MicroVerse for the Template and Task.
 
 ## Show your support
 
