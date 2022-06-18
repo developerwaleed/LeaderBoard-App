@@ -110,7 +110,7 @@ This project is [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.t
 
 ## Acknowledgments
 
-- Hat tip to Frontendmentor for the challenge.
+- Hat tip to MicroVerse for the Template and Task.
 
 ## Show your support
 
