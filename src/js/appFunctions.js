@@ -28,7 +28,6 @@ Form.addEventListener('submit', (e) => {
 refreshBtn.addEventListener('click', () => {
   getData();
   const targetIdField = document.getElementById('YourGameID');
-  console.log('Gameid=',GameId);
   targetIdField.innerHTML = `${GameId}`;
 });
 

@@ -9,11 +9,18 @@ const getData = async () => {
     throw new Error(`Something Went Wrong status: ${response.status}`);
   }
   const data = await response.json();
+  if(GameId !== null)
+  {
   let item = '';
   data.result.forEach((score) => {
     // item += displayItem(score);
-    item += `<li><spa>${score.user} </spa><span>${score.score}</span></li>`;
-  });
-  container.innerHTML = item;
+      console.log('game id  is null=', GameId);
+      item += `<li><spa>${score.user} </spa><span>${score.score}</span></li>`;
+    });
+    container.innerHTML = item;
+  }
+  else {
+    container.innerHTML = "Please Creat A new Game";
+  }
 };
 export default getData;

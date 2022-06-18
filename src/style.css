@@ -99,6 +99,8 @@ body {
 #click-here {
   font-style: italic;
   cursor: pointer;
+  width: 100px;
+  margin-left: 1rem;
 }
 
 #click-here:hover {
@@ -111,6 +113,7 @@ li:last-child {
 }
 
 .new-game {
+  padding: 15px;
   color: white;
 }
 
@@ -122,6 +125,7 @@ li:last-child {
   height: 20vh;
   justify-content: flex-end;
   align-items: flex-end;
+  padding: 10px;
 }
 
 .scores li {

@@ -29,6 +29,8 @@ const creatNewGame = () => {
     // eslint-disable-next-line prefer-destructuring
     GameId = GameId[0];
   });
+  const container = document.getElementById('data-container');
+  container.innerHTML = "New game has been successfully Created please press refresh and start adding players and there scores";
 };
 
 export { GameId, creatNewGame };
