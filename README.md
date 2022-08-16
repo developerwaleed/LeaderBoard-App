@@ -22,7 +22,7 @@ ScreenShot 3                                      |   ScreenShot 4
 
 ## Live Demo ✔️
 
-[Live Demo Link](https://caasperr.github.io/LeaderBoard-App/)
+[Live Demo Link](https://developerwaleed.github.io/LeaderBoard-App/)
 
 
 ## Getting Started 🙌
